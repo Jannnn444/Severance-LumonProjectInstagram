@@ -19,13 +19,15 @@
 		542F89D02B963C830086BC08 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 542F89CF2B963C830086BC08 /* AlamofireDynamic */; };
 		542F89D32B963C980086BC08 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 542F89D22B963C980086BC08 /* Kingfisher */; };
 		542F89D72B9651780086BC08 /* FriendStatusPhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F89D62B9651780086BC08 /* FriendStatusPhotoTableViewController.swift */; };
-		542F89D92B9652670086BC08 /* pickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F89D82B9652670086BC08 /* pickerViewController.swift */; };
 		542F89DB2B9655E50086BC08 /* PersonalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F89DA2B9655E50086BC08 /* PersonalPageViewController.swift */; };
 		542F89DD2B96581F0086BC08 /* tabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F89DC2B96581F0086BC08 /* tabBarViewController.swift */; };
 		543355382B965C8500C42817 /* GreetingsTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543355372B965C8400C42817 /* GreetingsTabBar.swift */; };
 		5433553A2B965C9A00C42817 /* globeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543355392B965C9A00C42817 /* globeTabBar.swift */; };
 		5433553C2B965CA800C42817 /* camTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433553B2B965CA800C42817 /* camTabBar.swift */; };
 		5433553E2B965CB100C42817 /* personalTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433553D2B965CB100C42817 /* personalTabBar.swift */; };
+		543BE9002B96779F00CA16FD /* FriendPostStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BE8FF2B96779F00CA16FD /* FriendPostStatusTableViewCell.swift */; };
+		543BE9022B96788A00CA16FD /* FriendStateNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BE9012B96788A00CA16FD /* FriendStateNavigationItem.swift */; };
+		543BE90A2B9693E300CA16FD /* CamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BE9092B9693E300CA16FD /* CamViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,13 +42,15 @@
 		542F89C62B96357A0086BC08 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		542F89CA2B963A1C0086BC08 /* GreetingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingPageViewController.swift; sourceTree = "<group>"; };
 		542F89D62B9651780086BC08 /* FriendStatusPhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendStatusPhotoTableViewController.swift; sourceTree = "<group>"; };
-		542F89D82B9652670086BC08 /* pickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pickerViewController.swift; sourceTree = "<group>"; };
 		542F89DA2B9655E50086BC08 /* PersonalPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPageViewController.swift; sourceTree = "<group>"; };
 		542F89DC2B96581F0086BC08 /* tabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarViewController.swift; sourceTree = "<group>"; };
 		543355372B965C8400C42817 /* GreetingsTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTabBar.swift; sourceTree = "<group>"; };
 		543355392B965C9A00C42817 /* globeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globeTabBar.swift; sourceTree = "<group>"; };
 		5433553B2B965CA800C42817 /* camTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camTabBar.swift; sourceTree = "<group>"; };
 		5433553D2B965CB100C42817 /* personalTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalTabBar.swift; sourceTree = "<group>"; };
+		543BE8FF2B96779F00CA16FD /* FriendPostStatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendPostStatusTableViewCell.swift; sourceTree = "<group>"; };
+		543BE9012B96788A00CA16FD /* FriendStateNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendStateNavigationItem.swift; sourceTree = "<group>"; };
+		543BE9092B9693E300CA16FD /* CamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,13 +98,15 @@
 		542F89C82B96359D0086BC08 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				542F89C42B96324E0086BC08 /* RegisterViewController.swift */,
 				542F89C62B96357A0086BC08 /* MainViewController.swift */,
+				542F89C42B96324E0086BC08 /* RegisterViewController.swift */,
 				542F89CA2B963A1C0086BC08 /* GreetingPageViewController.swift */,
 				542F89D62B9651780086BC08 /* FriendStatusPhotoTableViewController.swift */,
-				542F89D82B9652670086BC08 /* pickerViewController.swift */,
 				542F89DA2B9655E50086BC08 /* PersonalPageViewController.swift */,
 				542F89DC2B96581F0086BC08 /* tabBarViewController.swift */,
+				543BE9012B96788A00CA16FD /* FriendStateNavigationItem.swift */,
+				543BE8FF2B96779F00CA16FD /* FriendPostStatusTableViewCell.swift */,
+				543BE9092B9693E300CA16FD /* CamViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,13 +213,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				543BE90A2B9693E300CA16FD /* CamViewController.swift in Sources */,
 				542F89D72B9651780086BC08 /* FriendStatusPhotoTableViewController.swift in Sources */,
 				542F89B12B962F330086BC08 /* AppDelegate.swift in Sources */,
+				543BE9022B96788A00CA16FD /* FriendStateNavigationItem.swift in Sources */,
 				5433553E2B965CB100C42817 /* personalTabBar.swift in Sources */,
 				542F89B32B962F330086BC08 /* SceneDelegate.swift in Sources */,
 				542F89C52B96324E0086BC08 /* RegisterViewController.swift in Sources */,
+				543BE9002B96779F00CA16FD /* FriendPostStatusTableViewCell.swift in Sources */,
 				543355382B965C8500C42817 /* GreetingsTabBar.swift in Sources */,
-				542F89D92B9652670086BC08 /* pickerViewController.swift in Sources */,
 				5433553A2B965C9A00C42817 /* globeTabBar.swift in Sources */,
 				5433553C2B965CA800C42817 /* camTabBar.swift in Sources */,
 				542F89C72B96357A0086BC08 /* MainViewController.swift in Sources */,

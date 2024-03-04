@@ -164,17 +164,35 @@
         <scene sceneID="6qz-ee-4On">
             <objects>
                 <tableViewController id="T00-7Y-a3d" customClass="FriendStatusPhotoTableViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="3F5-jq-ZlD">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="569" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="3F5-jq-ZlD">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <imageView key="tableHeaderView" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SeveranceLumonLogo3-removebg-preview" id="JmJ-7V-gbv">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="q6R-qv-04t">
-                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendPostStatusTableViewCell" rowHeight="569" id="q6R-qv-04t" customClass="FriendPostStatusTableViewCell" customModule="Instagram" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="94" width="393" height="569"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="q6R-qv-04t" id="iK9-je-dDb">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="569"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="emptyProfile " translatesAutoresizingMaskIntoConstraints="NO" id="PG5-oZ-80V">
+                                            <rect key="frame" x="3" y="11" width="393" height="381"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kL8-SH-fZg">
+                                            <rect key="frame" x="3" y="400" width="51" height="35"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain" image="suit.heart.fill" catalog="system">
+                                                <color key="baseForegroundColor" systemColor="systemRedColor"/>
+                                            </buttonConfiguration>
+                                        </button>
+                                    </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -183,27 +201,29 @@
                             <outlet property="delegate" destination="T00-7Y-a3d" id="rP4-fU-lSm"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="bOx-ij-w4f"/>
+                    <navigationItem key="navigationItem" id="bOx-ij-w4f" customClass="FriendStateNavigationItem" customModule="Instagram" customModuleProvider="target">
+                        <nil key="title"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ye4-4X-n10" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2647" y="1481"/>
+            <point key="canvasLocation" x="2601" y="1481"/>
         </scene>
-        <!--Picker View Controller-->
-        <scene sceneID="cli-XV-4U5">
+        <!--Cam View Controller-->
+        <scene sceneID="uTt-Rp-WbK">
             <objects>
-                <viewController id="fR4-7l-jN0" customClass="pickerViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Hf4-4e-nvd">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                <viewController id="qtD-2b-98c" customClass="CamViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="soF-HI-Mqx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Of1-a5-DII"/>
+                        <viewLayoutGuide key="safeArea" id="zez-p4-Qhj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ZJl-7N-L6u"/>
+                    <navigationItem key="navigationItem" id="XWv-ww-IpV"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PCg-Bg-u4z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DGQ-Zf-Myi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2647" y="2255"/>
+            <point key="canvasLocation" x="2602" y="2255"/>
         </scene>
         <!--Personal Page View Controller-->
         <scene sceneID="pfd-GE-osq">
@@ -350,12 +370,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uLM-rr-Ijt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-34" y="765"/>
+            <point key="canvasLocation" x="321" y="765"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DUJ-Zy-EPq">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6MR-jY-DMk" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" toolbarHidden="NO" id="6MR-jY-DMk" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="globe" catalog="system" selectedImage="globe" id="Hgh-qm-t8Y" customClass="globeTabBar" customModule="Instagram" customModuleProvider="target">
                         <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
@@ -387,7 +407,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="fR4-7l-jN0" kind="relationship" relationship="rootViewController" id="6wq-jq-MVu"/>
+                        <segue destination="qtD-2b-98c" kind="show" id="HtM-9O-3ez"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SfN-b6-qtF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -423,6 +443,7 @@
         <image name="emptyProfile " width="736" height="736"/>
         <image name="globe" catalog="system" width="128" height="123"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="suit.heart.fill" catalog="system" width="128" height="107"/>
         <image name="sun.max" catalog="system" width="128" height="125"/>
         <image name="sun.max.fill" catalog="system" width="128" height="125"/>
         <systemColor name="labelColor">
@@ -433,6 +454,9 @@
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
