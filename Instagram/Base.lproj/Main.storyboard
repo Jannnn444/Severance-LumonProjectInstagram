@@ -287,11 +287,13 @@
             </objects>
             <point key="canvasLocation" x="2428" y="4"/>
         </scene>
-        <!--Item-->
+        <!--Item123-->
         <scene sceneID="PuA-K0-8e4">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="el2-Zd-rZY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="KZJ-7Q-BSI"/>
+                    <tabBarItem key="tabBarItem" title="Item123" id="KZJ-7Q-BSI">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cef-4j-Tth">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -310,8 +312,9 @@
         <scene sceneID="5bz-Nb-wiN">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wac-Iu-veO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" selectedImage="sun.max.fill" catalog="system" id="4yf-Ig-YU2" customClass="GreetingsTabBar" customModule="Instagram" customModuleProvider="target">
-                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <tabBarItem key="tabBarItem" title="" image="sun.max" catalog="system" selectedImage="sun.max.fill" id="4yf-Ig-YU2" customClass="GreetingsTabBar" customModule="Instagram" customModuleProvider="target">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ifi-Py-O3x">
@@ -347,13 +350,13 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uLM-rr-Ijt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="781" y="765"/>
+            <point key="canvasLocation" x="-34" y="765"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DUJ-Zy-EPq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6MR-jY-DMk" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" selectedImage="globe" catalog="system" id="Hgh-qm-t8Y" customClass="globeTabBar" customModule="Instagram" customModuleProvider="target">
+                    <tabBarItem key="tabBarItem" title="" image="globe" catalog="system" selectedImage="globe" id="Hgh-qm-t8Y" customClass="globeTabBar" customModule="Instagram" customModuleProvider="target">
                         <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -374,7 +377,7 @@
         <scene sceneID="MiY-KV-0jS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bgx-Eg-W5v" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" selectedImage="camera.fill" catalog="system" id="yQs-mp-rAT" customClass="camTabBar" customModule="Instagram" customModuleProvider="target">
+                    <tabBarItem key="tabBarItem" title="" image="camera" catalog="system" selectedImage="camera.fill" id="yQs-mp-rAT" customClass="camTabBar" customModule="Instagram" customModuleProvider="target">
                         <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -395,8 +398,8 @@
         <scene sceneID="43m-fq-EfE">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LvO-5U-Cmo" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" selectedImage="person.fill" catalog="system" id="sCG-Qu-MTb" customClass="personalTabBar" customModule="Instagram" customModuleProvider="target">
-                        <color key="badgeColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <tabBarItem key="tabBarItem" title="" image="person.fill" catalog="system" selectedImage="person.fill" id="sCG-Qu-MTb" customClass="personalTabBar" customModule="Instagram" customModuleProvider="target">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Nj-Oc-scI">
@@ -415,10 +418,12 @@
     </scenes>
     <resources>
         <image name="SeveranceLumonLogo3-removebg-preview" width="500" height="500"/>
+        <image name="camera" catalog="system" width="128" height="93"/>
         <image name="camera.fill" catalog="system" width="128" height="93"/>
         <image name="emptyProfile " width="736" height="736"/>
         <image name="globe" catalog="system" width="128" height="123"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
+        <image name="sun.max" catalog="system" width="128" height="125"/>
         <image name="sun.max.fill" catalog="system" width="128" height="125"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
