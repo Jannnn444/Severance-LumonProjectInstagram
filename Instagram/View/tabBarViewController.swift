@@ -19,22 +19,28 @@ class tabBarViewController: UITabBarController {
     
     // MARK: For Dissappeared the BackButton after Login
     
-        override func viewWillAppear(_ animated: Bool) {
-            super.viewWillAppear(animated)
-    
-            // Hide the navigation bar on the this view controller
-            self.navigationController?.setNavigationBarHidden(true, animated: animated)
-        }
-    
-        override func viewWillDisappear(_ animated: Bool) {
-            super.viewWillDisappear(animated)
-    
-            // Show the navigation bar on other view controllers
-            self.navigationController?.setNavigationBarHidden(false, animated: animated)
-        }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        // Hide the navigation bar on the this view controller
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
     }
     
+    //        override func viewWillDisappear(_ animated: Bool) {
+    //            super.viewWillDisappear(animated)
+    //
+    //            // Show the navigation bar on other view controllers
+    //            self.navigationController?.setNavigationBarHidden(false, animated: animated)
+    //        }
+    //
+    //    }
     
     
-
+    
+    @IBSegueAction func passUserData(_ coder: NSCoder) -> tabBarViewController? {
+        return tabBarViewController(coder: coder)
+        
+        
+    }
+    
+}

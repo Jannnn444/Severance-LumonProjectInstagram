@@ -1,5 +1,5 @@
 //
-//  FriendPostStatusTableViewCell.swift
+//  PersonalGridTableViewCell.swift
 //  Instagram
 //
 //  Created by yucian huang on 2024/3/5.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class FriendPostStatusTableViewCell: UITableViewCell {
+class PersonalGridTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -20,6 +20,7 @@ class RegisterViewController: UIViewController {
         
     }
     
+    //MARK: Set Alert Messages
     
     @IBAction func CreateAccButton(_ sender: UIButton) {
         
@@ -37,14 +38,13 @@ class RegisterViewController: UIViewController {
                 NSLog("OK Pressed")
             }
             
-            // HERE WE NEED CANCEL
+            // MARK: CANCEL BUTTON
             
            let cancelAction = UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel) {
                  UIAlertAction in
                  NSLog("Cancel Pressed")
              }
-    
-    
+
             
             // Add the actions
             alertController.addAction(okAction)
@@ -77,4 +77,10 @@ class RegisterViewController: UIViewController {
         
         
     }
+    @IBAction func updateRegister(_ sender: Any) {
+        
+       
+        
+    }
+    
 }

@@ -18,16 +18,16 @@
 		542F89CE2B963C830086BC08 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 542F89CD2B963C830086BC08 /* Alamofire */; };
 		542F89D02B963C830086BC08 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 542F89CF2B963C830086BC08 /* AlamofireDynamic */; };
 		542F89D32B963C980086BC08 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 542F89D22B963C980086BC08 /* Kingfisher */; };
-		542F89D72B9651780086BC08 /* FriendStatusPhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F89D62B9651780086BC08 /* FriendStatusPhotoTableViewController.swift */; };
-		542F89DB2B9655E50086BC08 /* PersonalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F89DA2B9655E50086BC08 /* PersonalPageViewController.swift */; };
 		542F89DD2B96581F0086BC08 /* tabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F89DC2B96581F0086BC08 /* tabBarViewController.swift */; };
-		543355382B965C8500C42817 /* GreetingsTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543355372B965C8400C42817 /* GreetingsTabBar.swift */; };
-		5433553A2B965C9A00C42817 /* globeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543355392B965C9A00C42817 /* globeTabBar.swift */; };
-		5433553C2B965CA800C42817 /* camTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433553B2B965CA800C42817 /* camTabBar.swift */; };
-		5433553E2B965CB100C42817 /* personalTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5433553D2B965CB100C42817 /* personalTabBar.swift */; };
-		543BE9002B96779F00CA16FD /* FriendPostStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BE8FF2B96779F00CA16FD /* FriendPostStatusTableViewCell.swift */; };
-		543BE9022B96788A00CA16FD /* FriendStateNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BE9012B96788A00CA16FD /* FriendStateNavigationItem.swift */; };
-		543BE90A2B9693E300CA16FD /* CamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BE9092B9693E300CA16FD /* CamViewController.swift */; };
+		543BE90C2B97360200CA16FD /* PersonalPageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BE90B2B97360200CA16FD /* PersonalPageTableViewController.swift */; };
+		543BE9112B9740FB00CA16FD /* PersonalTopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BE9102B9740FB00CA16FD /* PersonalTopTableViewCell.swift */; };
+		543BE91A2B97541600CA16FD /* PersonalButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BE9192B97541600CA16FD /* PersonalButtonTableViewCell.swift */; };
+		543BE91C2B97542E00CA16FD /* PersonalGridTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543BE91B2B97542E00CA16FD /* PersonalGridTableViewCell.swift */; };
+		54E0CEBB2B976ABD005E7726 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E0CEBA2B976ABD005E7726 /* User.swift */; };
+		54E0CEBD2B976B24005E7726 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E0CEBC2B976B24005E7726 /* Response.swift */; };
+		54E0CEBF2B9776F0005E7726 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E0CEBE2B9776F0005E7726 /* UserSession.swift */; };
+		54E0CEC12B9776FD005E7726 /* Favqs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E0CEC02B9776FD005E7726 /* Favqs.swift */; };
+		54E0CEC42B979407005E7726 /* RegisterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E0CEC32B979407005E7726 /* RegisterButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,16 +41,16 @@
 		542F89C42B96324E0086BC08 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		542F89C62B96357A0086BC08 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		542F89CA2B963A1C0086BC08 /* GreetingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingPageViewController.swift; sourceTree = "<group>"; };
-		542F89D62B9651780086BC08 /* FriendStatusPhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendStatusPhotoTableViewController.swift; sourceTree = "<group>"; };
-		542F89DA2B9655E50086BC08 /* PersonalPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPageViewController.swift; sourceTree = "<group>"; };
 		542F89DC2B96581F0086BC08 /* tabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarViewController.swift; sourceTree = "<group>"; };
-		543355372B965C8400C42817 /* GreetingsTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTabBar.swift; sourceTree = "<group>"; };
-		543355392B965C9A00C42817 /* globeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globeTabBar.swift; sourceTree = "<group>"; };
-		5433553B2B965CA800C42817 /* camTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camTabBar.swift; sourceTree = "<group>"; };
-		5433553D2B965CB100C42817 /* personalTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalTabBar.swift; sourceTree = "<group>"; };
-		543BE8FF2B96779F00CA16FD /* FriendPostStatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendPostStatusTableViewCell.swift; sourceTree = "<group>"; };
-		543BE9012B96788A00CA16FD /* FriendStateNavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendStateNavigationItem.swift; sourceTree = "<group>"; };
-		543BE9092B9693E300CA16FD /* CamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamViewController.swift; sourceTree = "<group>"; };
+		543BE90B2B97360200CA16FD /* PersonalPageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPageTableViewController.swift; sourceTree = "<group>"; };
+		543BE9102B9740FB00CA16FD /* PersonalTopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalTopTableViewCell.swift; sourceTree = "<group>"; };
+		543BE9192B97541600CA16FD /* PersonalButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalButtonTableViewCell.swift; sourceTree = "<group>"; };
+		543BE91B2B97542E00CA16FD /* PersonalGridTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalGridTableViewCell.swift; sourceTree = "<group>"; };
+		54E0CEBA2B976ABD005E7726 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		54E0CEBC2B976B24005E7726 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		54E0CEBE2B9776F0005E7726 /* UserSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		54E0CEC02B9776FD005E7726 /* Favqs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favqs.swift; sourceTree = "<group>"; };
+		54E0CEC32B979407005E7726 /* RegisterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,8 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				542F89B62B962F330086BC08 /* Main.storyboard */,
-				543355362B965C5000C42817 /* TabBarItems */,
+				54E0CEC22B9793EF005E7726 /* Button */,
+				543BE90F2B9740C100CA16FD /* Cell */,
 				542F89C82B96359D0086BC08 /* View */,
+				543BE9182B97452600CA16FD /* Model */,
 				542F89C92B9635AC0086BC08 /* Support */,
 				542F89BE2B962F360086BC08 /* Info.plist */,
 			);
@@ -101,12 +103,8 @@
 				542F89C62B96357A0086BC08 /* MainViewController.swift */,
 				542F89C42B96324E0086BC08 /* RegisterViewController.swift */,
 				542F89CA2B963A1C0086BC08 /* GreetingPageViewController.swift */,
-				542F89D62B9651780086BC08 /* FriendStatusPhotoTableViewController.swift */,
-				542F89DA2B9655E50086BC08 /* PersonalPageViewController.swift */,
+				543BE90B2B97360200CA16FD /* PersonalPageTableViewController.swift */,
 				542F89DC2B96581F0086BC08 /* tabBarViewController.swift */,
-				543BE9012B96788A00CA16FD /* FriendStateNavigationItem.swift */,
-				543BE8FF2B96779F00CA16FD /* FriendPostStatusTableViewCell.swift */,
-				543BE9092B9693E300CA16FD /* CamViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -122,15 +120,33 @@
 			path = Support;
 			sourceTree = "<group>";
 		};
-		543355362B965C5000C42817 /* TabBarItems */ = {
+		543BE90F2B9740C100CA16FD /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				543355372B965C8400C42817 /* GreetingsTabBar.swift */,
-				543355392B965C9A00C42817 /* globeTabBar.swift */,
-				5433553B2B965CA800C42817 /* camTabBar.swift */,
-				5433553D2B965CB100C42817 /* personalTabBar.swift */,
+				543BE9102B9740FB00CA16FD /* PersonalTopTableViewCell.swift */,
+				543BE9192B97541600CA16FD /* PersonalButtonTableViewCell.swift */,
+				543BE91B2B97542E00CA16FD /* PersonalGridTableViewCell.swift */,
 			);
-			path = TabBarItems;
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		543BE9182B97452600CA16FD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54E0CEBA2B976ABD005E7726 /* User.swift */,
+				54E0CEBC2B976B24005E7726 /* Response.swift */,
+				54E0CEBE2B9776F0005E7726 /* UserSession.swift */,
+				54E0CEC02B9776FD005E7726 /* Favqs.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		54E0CEC22B9793EF005E7726 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				54E0CEC32B979407005E7726 /* RegisterButton.swift */,
+			);
+			path = Button;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,21 +229,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				543BE90A2B9693E300CA16FD /* CamViewController.swift in Sources */,
-				542F89D72B9651780086BC08 /* FriendStatusPhotoTableViewController.swift in Sources */,
+				543BE90C2B97360200CA16FD /* PersonalPageTableViewController.swift in Sources */,
 				542F89B12B962F330086BC08 /* AppDelegate.swift in Sources */,
-				543BE9022B96788A00CA16FD /* FriendStateNavigationItem.swift in Sources */,
-				5433553E2B965CB100C42817 /* personalTabBar.swift in Sources */,
+				543BE9112B9740FB00CA16FD /* PersonalTopTableViewCell.swift in Sources */,
 				542F89B32B962F330086BC08 /* SceneDelegate.swift in Sources */,
+				54E0CEBD2B976B24005E7726 /* Response.swift in Sources */,
+				543BE91C2B97542E00CA16FD /* PersonalGridTableViewCell.swift in Sources */,
 				542F89C52B96324E0086BC08 /* RegisterViewController.swift in Sources */,
-				543BE9002B96779F00CA16FD /* FriendPostStatusTableViewCell.swift in Sources */,
-				543355382B965C8500C42817 /* GreetingsTabBar.swift in Sources */,
-				5433553A2B965C9A00C42817 /* globeTabBar.swift in Sources */,
-				5433553C2B965CA800C42817 /* camTabBar.swift in Sources */,
+				54E0CEC12B9776FD005E7726 /* Favqs.swift in Sources */,
 				542F89C72B96357A0086BC08 /* MainViewController.swift in Sources */,
+				54E0CEC42B979407005E7726 /* RegisterButton.swift in Sources */,
 				542F89DD2B96581F0086BC08 /* tabBarViewController.swift in Sources */,
-				542F89DB2B9655E50086BC08 /* PersonalPageViewController.swift in Sources */,
 				542F89CB2B963A1C0086BC08 /* GreetingPageViewController.swift in Sources */,
+				54E0CEBB2B976ABD005E7726 /* User.swift in Sources */,
+				54E0CEBF2B9776F0005E7726 /* UserSession.swift in Sources */,
+				543BE91A2B97541600CA16FD /* PersonalButtonTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,7 +398,8 @@
 				DEVELOPMENT_TEAM = 362GN5DA84;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagram/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lumon Instagram";
+				INFOPLIST_KEY_CFBundleDisplayName = Lumon;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Lumon need to fetch your photo data. Access?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -411,7 +428,8 @@
 				DEVELOPMENT_TEAM = 362GN5DA84;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagram/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Lumon Instagram";
+				INFOPLIST_KEY_CFBundleDisplayName = Lumon;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Lumon need to fetch your photo data. Access?";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
